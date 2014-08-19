@@ -14,7 +14,7 @@
 		<link rel="stylesheet" href="style.css">
 
 	</head>
-	<body>
+	<body onload="draw();">
 
 		<nav class="navbar navbar-inverse" role="navigation">
 		  <div class="container-fluid">
@@ -26,14 +26,14 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <a class="navbar-brand" href="#">Site</a>
+		      <a class="navbar-brand" href="#">CSS and jQuery Animations</a>
 		    </div>
 		  </div><!-- /.container-fluid -->
 		</nav>
 		
 		<div class="container">
 			<header>
-				<h1>CSS and Animations</h1>
+				<h1>Guess the transformation!</h1>
 			</header>
 
 			<div class="container-fluid">
@@ -68,9 +68,13 @@
 					<img id="sixThree" class="col-xs-6 col-md-4" src="http://wallpapertoon.com/wp-content/uploads/2014/07/natural-beautiful-wallpapers-hd-desktop.jpg" alt="" width="250px" height="250px">
 				</div>
 			</div>
+		<canvas id="canvas" width="1500" height="200"></canvas>
 		</div>
 
-		<footer></footer>
+		
+		<footer>
+			<canvas id="foot" width="1200" height="300"></canvas>
+		</footer>
 
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="//https:maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>

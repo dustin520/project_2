@@ -96,3 +96,12 @@ div img {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+
+canvas {
+	padding-top: 35px; 
+	margin-top: 20px;
+	width: 1500;
+	height: 200;
+	border: 0px solid black;
+	text-align: center;
+}
