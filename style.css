@@ -1,0 +1,98 @@
+html {
+	background: url(http://www.ciroc.com/img/bg_gradient-noRepeat.jpg),
+    linear-gradient(to right, rgba(255, 255, 255, 0),  rgba(255, 255, 255, 1)),
+      url(http://roseblacque.files.wordpress.com/2011/02/thesun.jpg);
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: bottom right, left, right;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.rowOne{ 
+  background: url(http://www.thinksnaps.com/wp-content/uploads/2014/07/light_background-wallpaper-3554x1999.jpg) no-repeat center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.rowTwo, .rowThree, .rowFour, .rowFive { 
+  background: url(http://www.wallm.com/images/2012/11/background-winter-cloud-newest-andreasz-showing.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.rowSix{ 
+  background: url(http://www.thinksnaps.com/wp-content/uploads/2014/07/light_background-wallpaper-3554x1999.jpg) no-repeat center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#oneOne:hover {
+	-webkit-transition: width 3s, height 2s;
+	transition: width 2s, height 3s, transform 2s;
+	width: 250px;
+	height: 250px;
+}
+
+#oneThree:hover {
+	-webkit-transition: width 3s, height 2s;
+	transition: width 2s, height 3s, transform 2s;
+	width: 400;
+	height: 250px;
+}
+
+#twoOne:hover {
+	-webkit-transform:rotate(180deg);
+	transform:roatate(180deg);
+}
+
+#threeOne:hover {
+	-webkit-transition: width 2s, height 2s;
+	transition: width 2s, height 2s, transform 6s;
+	width: 400px;
+	height: 450px;
+	-webkit-transform:rotate(120deg);
+	transform:roatate(120deg);
+}
+
+#threeThree:hover {
+	-webkit-transition: width 3s, height 2s;
+	transition: width 2s, height 3s, transform 2s;
+	width: 250px;
+	height: 500px;
+}
+
+#fourOne:hover {
+	-webkit-transition: width 2s, height 2s;
+	transition: width 2s, height 2s, transform 2s;
+	width: 100px;
+	height: 100px;
+	transition-timing-function: ease-out;
+}
+
+#fiveOne:hover {
+	-webkit-transition: width 2s, height 2s;
+	transition: width 2s, height 2s, transform 4s;
+	width: 400px;
+	height: 450px;
+	-webkit-transform:rotate(120deg);
+	transform:roatate(120deg);
+}
+
+
+.container {
+	margin-top: 5%;
+
+}
+
+div img {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
